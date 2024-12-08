@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Shooter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="score">
+      <p>
+        Score:
+        <span class="ml-1" id="currentScore">0</span>
+      </p>
+
+      <p>
+        Highest:
+        <span class="ml-1" id="topScore">0</span>
+      </p>
+    </div>
+
+    <div id="scoreBoard">
+      <div>
+        <h1 id="topCurrentScore">0</h1>
+        <p>Points</p>
+        <div>
+          <button id="startGameBtn">Start Game</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="joystick-container">
+      <div id="joystick"></div>
+  </div>
+
+    <canvas></canvas>
+    <script src="script.js"></script>
+    <script src="joystick.js"></script>
+</body>
+</html>
